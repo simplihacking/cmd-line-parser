@@ -1,0 +1,38 @@
+Problem Statement:
+
+What:Simulate a command line parser in Python.
+How: <need to be filled in>
+Sig: Multi String -> Specific to the input command
+Input: String 
+Output: based on intepretation of the given input, output a string
+or a multi line string.
+
+Interpret: The given string input is interpreted as a series of positional
+arguments and options.
+
+Main objects/items for the given problem statement:
+Arguments # this is the input to our program
+Command # this could be the program we referred to
+
+Expected Result:
+Is given argument syntax correct:
+ True -> Print the desired output
+ False -> Throw a relevant exception error - have the different errors in a class.
+
+Input Syntax:
+cmd [Options] [arg1] [arg2]...
+
+where Options :
+      short alias
+      long alias
+
+Example:
+short alias:
+-r
+long alias: -reversed
+
+-o out_file
+-oout_file
+--output=out_file
+
+Note: Different options can be given but required arguments must be supplied # Part of original contract ?

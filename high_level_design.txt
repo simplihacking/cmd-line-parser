@@ -1,0 +1,25 @@
+
+Note: 
+Just need to identify the positional arguments and the corresponding optional
+arguments.
+
+$cat example_file
+$sort -r example_file
+
+
+Argument:
+example_file
+
+Options or Flags: #change the operation of program
+-r
+-o
+
+Option types:
+-long
+ --reversed
+-short
+ -r
+ -o <optional value>
+
+
+
